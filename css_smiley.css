@@ -17,10 +17,22 @@
     transition-delay: 1.5s;
     background-color: white;
     z-index: 2;
+/* Animation */
     animation-name: background;
     animation-duration: 5s;
     animation-delay: 2s;
     animation-fill-mode: both;
+/* Webkit Animation */
+    -webkit-animation-name: background;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-fill-mode: both;
+/* Firefox Animation */
+    -moz-animation-name: background;
+    -moz-animation-duration: 5s;
+    -moz-animation-delay: 2s;
+    -moz-animation-fill-mode: both;
+
 }
 
 .face   {
